@@ -1,0 +1,61 @@
+
+body {
+	background-color: #FFA8A8; /* Light grey background */
+	color: #333333; /* Dark grey text */
+  }
+ 
+  @font-face {
+	font-family: "CatPaw";
+	font-style: normal;
+	src: url(font/CatPaw.ttf);
+	
+  }
+
+  @font-face {
+	font-family: "CFCrayons-Regular";
+	font-style: normal;
+	src: url(font/CFCrayons-Regular.ttf);
+	
+  }
+
+  /* Header styles */
+  article {
+	border: 5px solid rgb(204, 51, 191);
+	margin: 2%;
+	padding: 2%;
+
+  }
+
+  img {
+	float: right;
+	margin: 2%;
+	border-radius: 20px;
+	border: 3px solid salmon ;
+
+  }
+  
+  h1 {
+	text-align: left;
+	color: #7F0037;
+	font-size: 1.5em;
+	
+  }
+
+
+  h2 {
+	text-align: left;
+	color: #7F0037;
+	font-size: 1.5em;
+	font-family: "CatPaw";
+  }
+
+  h3 {
+	text-align: left;
+	color: #7F0037;
+	font-size: 1.5em;
+	font-family: "CFCrayons-Regular";
+  }
+
+  a {
+	font-size: small;
+  }
